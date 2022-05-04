@@ -12,7 +12,7 @@
 // ==/UserScript==
 
 // Your code here... dont know code  sorry  ?
-jQuery(document).ready(function() {
+jQuery(document).ready(function() {  /// changesit from green to black on a fade 
     jQuery('*:contains("SIGN"):not(:has(*))').css('background-color', 'green').click(function() {
         jQuery("#sign_but").fadeToggle(2500).css('background-color', 'black');
     });
