@@ -18,19 +18,6 @@ jQuery(document).ready(function() {
     });
 });
 
-//<button class="faucet_buttons" id="claim_but_bob" name="claim" style="display: block; background-color: red;">CLAIM 3 $BOB</button>
-
-// jQuery(document).ready(function(){
-// jQuery('#faucet_buttons').click(function(){
-//     jQuery('#claim_but_bob').fadeToggle(2500).css('background-color','red');
-//     //jQuery('#enteract_menu_title').text()
-//     $('#claim_but_bob').bind('DOMSubtreeModified', function () {
-//         console.log('changed');
-//     });
-// });
-// });
-
-
 (function() {
     jQuery('#resource_sound').prop('muted', true) ///shhhhhhhh during cliams router usage now 
     let p = jQuery(".plot_id") // plot got tired of typing it P it is !
