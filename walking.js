@@ -1,11 +1,10 @@
 // ==UserScript==
 // @name         the Man👨who walked the WorlD
 // @namespace    http://tampermonkey.net/
-// @version      0.420 
+// @version      0.422 
 // @description  mash up somethings to make a thing to show things over things with the other things and who owned them things
 // @author       @KaTZWorlD find me on twitter or in the discord
 // @match        http*://play.tmwstw.io/*
-// @require      file://
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
 // @icon         https://avatars.githubusercontent.com/u/3157472
 // @grant        none
@@ -52,15 +51,6 @@ jQuery(document).ready(function() {  /// changesit from green to black on a fade
         jQuery('#theImg').width(222) //dress it up
         jQuery('#theImg').height(222) //change this ?
     }
-
-    //compas
-    //<img class="compas" id="compas" src="src/comp.png" style="transform:rotate(157.39581400342243deg)">
-    // let mask = '<svg width="600" height="400"><mask id="svgmask3"><circle cx="100" cy="100" r="75"></circle></mask><image xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href=globeThing.href mask="url(#svgmask3)"></image></svg>'
-    //jQuery("#compas").attr("src",globeThing);
-    //  jQuery('#compas').width(150) //dress it up
-    //  jQuery('#compas').height(150) //dress it up
-
-
 
     //'use strict';
     //still nothing here WTF?!
